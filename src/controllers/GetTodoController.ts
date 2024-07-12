@@ -7,9 +7,9 @@ class GetTodoController {
 
     const service = new GetTodoService();
 
-    const todo = service.execute(Number(id));
+    const todo = await service.execute(Number(id));
 
-    return res.status(200).json({statusCode: 200, todo});
+    return res.status(200).json({statusCode: 200, data: todo});
   }
 }
 

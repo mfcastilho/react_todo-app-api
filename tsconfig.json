@@ -13,7 +13,18 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/middlewares/*": ["src/middlewares/*"],
+      "@/dto/*": ["src/dto/*"],
+      "@/entities/*": ["src/entities/*"],
+      "@/errors/*": ["src/errors/*"],
+      "@/configs/*": ["src/configs/*"],
+      "@/services/*": ["src/services/*"],
+      "@/controllers/*": ["src/controllers/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/server/*": ["src/server/*"],
+      "@/repositories/*": ["src/repositories/*"],
+      "@/types/*": ["src/types/*"],
+      "@/utils/*": ["src/utils/*"]
     }
   },
   "include": ["src/**/*"],
