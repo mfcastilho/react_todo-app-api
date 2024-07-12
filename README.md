@@ -163,19 +163,53 @@ Exclui uma tarefa pelo ID.
 
 A estrutura de pastas do projeto é a seguinte:
 
-src  
-├── configs  
-├── controllers  
-├── dto  
-├── entities  
-├── errors  
-├── middlewares  
-├── repositories  
-├── routes  
-├── services  
-├── types  
-├── utils  
-└── server  
+## Estrutura do Projeto
+
+```plaintext
+src
+├── configs
+│   └── database
+│       └── prismaClient.ts
+├── controllers
+│   ├── CreateTodoController.ts
+│   ├── DeleteTodoController.ts
+│   ├── EditTodoController.ts
+│   ├── GetAllTodosController.ts
+│   ├── GetTodoController.ts
+│   └── index.ts
+├── dto
+│   ├── EditTodoDTO.ts
+│   ├── TodoDTO.ts
+│   └── index.ts
+├── entities
+│   └── Todo.ts
+├── errors
+│   ├── AppError.ts
+│   ├── errorHandler.ts
+│   └── index.ts
+├── middlewares
+│   ├── index.ts
+│   ├── verifyEditTodoFields.ts
+│   ├── verifyIfIdIsANumber.ts
+│   ├── verifyIfTodosExists.ts
+│   └── verifyTodoFields.ts
+├── repositories
+│   └── todo.repository.ts
+├── routes
+│   └── todo.routes.ts
+├── server
+│   └── index.ts
+├── services
+│   ├── CreateTodoService.ts
+│   ├── DeleteTodoService.ts
+│   ├── EditTodoService.ts
+│   ├── GetAllTodosService.ts
+│   ├── GetTodoService.ts
+│   └── index.ts
+├── types
+│   └── Filters.ts
+└── app.ts
+ 
 
 ## Contribuição
 
