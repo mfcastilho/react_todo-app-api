@@ -9,7 +9,7 @@ class GetAllTodosController {
 
     const todos = await service.execute(userId, completed);
 
-    return res.status(200).json({statusCode:200, todos});
+    return res.status(200).json({statusCode:200, data: todos});
   }
 }
 
