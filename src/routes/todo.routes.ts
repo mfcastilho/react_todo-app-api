@@ -1,14 +1,14 @@
 
 import GetTodoController from '../controllers/GetTodoController';
-import { GetAllTodosController } from '../controllers';
+import { CreateTodoController, GetAllTodosController } from '../controllers';
 import { Router } from 'express';
-import { verifyIfTodoExists } from '../middlewares';
+import { verifyIfTodoExists, verifyTodoFields } from '../middlewares';
 
 const todoRoutes = Router();
 
 todoRoutes.get('', GetAllTodosController.handle);
 todoRoutes.get('/:id', verifyIfTodoExists, GetTodoController.handle);
-todoRoutes.post('');
+todoRoutes.post('', verifyTodoFields, CreateTodoController.handle);
 todoRoutes.patch('/:id');
 todoRoutes.delete('/:id');
 
