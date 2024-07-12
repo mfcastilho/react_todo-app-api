@@ -1,4 +1,4 @@
-import { CreateTodoController, GetAllTodosController, EditTodoController, GetTodoController } from '../controllers';
+import { CreateTodoController, GetAllTodosController, EditTodoController, GetTodoController, DeleteTodoController } from '../controllers';
 import { Router } from 'express';
 import { verifyIfIdIsANumber, verifyIfTodoExists, verifyTodoFields } from '../middlewares';
 
@@ -8,6 +8,6 @@ todoRoutes.get('', GetAllTodosController.handle);
 todoRoutes.get('/:id', verifyIfIdIsANumber, verifyIfTodoExists, GetTodoController.handle);
 todoRoutes.post('', verifyTodoFields, CreateTodoController.handle);
 todoRoutes.patch('/:id', verifyIfIdIsANumber, verifyIfTodoExists, EditTodoController.handle);
-todoRoutes.delete('/:id');
+todoRoutes.delete('/:id', verifyIfIdIsANumber, verifyIfTodoExists, DeleteTodoController.handle);
 
 export default todoRoutes;
