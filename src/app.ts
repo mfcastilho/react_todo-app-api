@@ -1,4 +1,5 @@
 import express from 'express';
+import 'express-async-errors';
 import { config } from 'dotenv';
 import todoRoutes from './routes/todo.routes';
 import { errorHandler } from './errors';
