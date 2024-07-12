@@ -5,13 +5,13 @@
 Esta é uma API RESTful para gerenciar uma lista de tarefas (todos). A API foi construída utilizando Node.js, Express, TypeScript e Prisma ORM, seguindo um padrão de camadas. O banco de dados utilizado é o PostgreSQL. O projeto inclui validações, tratamento de erros e segue boas práticas de codificação com ESLint e Prettier.
 
 <div align="center">
-    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/typescript_logo.png" alt="TypeScript" width="40" height="40"/>
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/typescript_logo.png" alt="TypeScript" width="70" height="70"/>
     &nbsp;&nbsp;
-    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/express-js.png" alt="Express" width="40" height="40"/>
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/express-js.png" alt="Express" width="70" height="70"/>
     &nbsp;&nbsp;
-    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/postgresql_logo.png" alt="PostgreSQL" width="40" height="40"/>
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/postgresql_logo.png" alt="PostgreSQL" width="70" height="70"/>
     &nbsp;&nbsp;
-    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/prisma_logo.png" alt="Prisma" width="40" height="40"/>
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/prisma_logo.png" alt="Prisma" width="70" height="70"/>
 </div>
 
 
