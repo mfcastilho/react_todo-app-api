@@ -7,7 +7,7 @@ Esta é uma API RESTful para gerenciar uma lista de tarefas (todos). A API foi c
 <div align="center">
     <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/typescript_logo.png" alt="TypeScript" width="40" height="40"/>
     &nbsp;&nbsp;
-    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/expressjs_logo.png" alt="Express" width="40" height="40"/>
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/express-js.png" alt="Express" width="40" height="40"/>
     &nbsp;&nbsp;
     <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/postgresql_logo.png" alt="PostgreSQL" width="40" height="40"/>
     &nbsp;&nbsp;
