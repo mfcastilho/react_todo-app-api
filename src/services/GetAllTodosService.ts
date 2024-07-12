@@ -1,8 +1,6 @@
 import { Todo } from "../entities/Todo";
 import TodoRepository from "../repositories/todo.repository";
 
-
-
 export class GetAllTodosService {
   async execute(userId?: string, completed?: string): Promise<Todo[]> {
     const filters: { userId?: number, completed?: boolean } = {};
