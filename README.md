@@ -4,6 +4,17 @@
 
 Esta é uma API RESTful para gerenciar uma lista de tarefas (todos). A API foi construída utilizando Node.js, Express, TypeScript e Prisma ORM, seguindo um padrão de camadas. O banco de dados utilizado é o PostgreSQL. O projeto inclui validações, tratamento de erros e segue boas práticas de codificação com ESLint e Prettier.
 
+<div align="center">
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/typescript_logo.png" alt="TypeScript" width="40" height="40"/>
+    &nbsp;&nbsp;
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/expressjs_logo.png" alt="Express" width="40" height="40"/>
+    &nbsp;&nbsp;
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/postgresql_logo.png" alt="PostgreSQL" width="40" height="40"/>
+    &nbsp;&nbsp;
+    <img src="https://github.com/mfcastilho/react_todo-app-api/blob/master/docs/images/prisma_logo.png" alt="Prisma" width="40" height="40"/>
+</div>
+
+
 ## Tecnologias Utilizadas
 
 - **Node.js**
