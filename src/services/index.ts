@@ -1,3 +1,4 @@
+import { DeleteTodoService } from './DeleteTodoService';
 import { EditTodoService } from './EditTodoService';
 import { CreateTodoService } from './CreateTodoService';
 import { GetTodoService } from './GetTodoService';
@@ -8,4 +9,5 @@ export {
   GetTodoService,
   CreateTodoService,
   EditTodoService,
+  DeleteTodoService,
 };
