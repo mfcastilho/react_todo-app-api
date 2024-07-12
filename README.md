@@ -189,6 +189,6 @@ Se você quiser contribuir com este projeto, siga estas etapas:
 
 ## Licença
 
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+Distribuído sob a licença MIT. Veja LICENSE <a href="https://github.com/mfcastilho/react_todo-app-api/blob/master/LICENSE"> aqui </a> para mais informações.
 
 Qualquer dúvida ou sugestão, fique à vontade para entrar em contato. Agradeço pelo interesse no projeto!
