@@ -1,8 +1,10 @@
+
+import { GetAllTodosController } from '../controllers';
 import { Router } from 'express';
 
 const todoRoutes = Router();
 
-todoRoutes.get('');
+todoRoutes.get('', GetAllTodosController.handle);
 todoRoutes.get('/:id');
 todoRoutes.post('');
 todoRoutes.patch('/:id');
